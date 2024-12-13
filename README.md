@@ -18,7 +18,9 @@ pip install -r requirements.txt
 1. Open image_comparison.ipynb
 2. Run the image_difference function on any two images in the Cropped_Results folder by inputting the file paths as the two arguments.
 
-Note that this function requires the two images to be of the same dimensions. For the most meaningful results, users should compare an image from the baseline subfolder with an image from any of the other subfolder. The images themselves should match, e.g. 
+Note that this function requires the two images to be of the same dimensions and assumes that input images are masked.
+
+For the most meaningful results, users should compare an image from the baseline subfolder with an image from any of the other subfolder. The image numbers should also match, e.g. 
 
 ```
 image_difference("/Cropped_Results/baseline/5", "/Cropped_Results/desaturation/5").
