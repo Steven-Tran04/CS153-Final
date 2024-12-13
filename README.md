@@ -4,6 +4,14 @@ Code used to assess similarity of hand reconstructions using root mean square er
 
 <img width="393" alt="Screen Shot 2024-12-11 at 3 53 45 PM" src="https://github.com/user-attachments/assets/51fb1da1-4353-407b-a986-f3485c5ae939" />
 
+## Setup
+
+1. Clone the repository
+2. Set up the environment and install the requirements by running
+
+```
+pip install -r requirements.txt
+```
 
 ## How to Use
 
